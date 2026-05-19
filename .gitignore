@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# --- IDE / OS Specific ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Data/Pipeline Artifacts ---
+# Ignore raw data dumps, vector stores, and local logs
+data/bronze/*
+data/silver/*
+data/gold/*
+*.log
+*.sqlite3
+chroma.sqlite3
+
+# --- Sensitive Info ---
+# Always keep API keys local
+.streamlit/secrets.toml
+.env
