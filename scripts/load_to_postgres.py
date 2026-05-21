@@ -4,15 +4,19 @@ import json
 import logging
 import psycopg2
 from psycopg2 import extras
+from dotenv import load_dotenv
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
+
+# Initialize and parse the local configuration file
+load_dotenv()
 
 # Database configuration - Update these with your local Postgres credentials
 DB_CONFIG = {
     "dbname": "ilm_gate_db",
     "user": "postgres",
-    "password": "keyboardcat",
+    "password": os.getenv("DB_PASSWORD"),
     "host": "localhost",
     "port": "5432"
 }
