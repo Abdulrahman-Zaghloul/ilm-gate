@@ -5,7 +5,7 @@ __pycache__/
 venv/
 .venv/
 env/
-.env/
+.env
 
 # --- IDE / OS Specific ---
 .vscode/
