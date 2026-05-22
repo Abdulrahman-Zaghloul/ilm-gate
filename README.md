@@ -1,4 +1,4 @@
-# Ilm-Gate: Foundational Islamic Source AI
+# Ilm-Gate: Foundational Islamic Source AI (IN PROGRESS)
 
 A conservative, source-verified AI assistant designed to provide accurate rulings based exclusively on the Holy Quran, Sahih al-Bukhari, and Sahih Muslim. Built with a "Strict Guardrail" RAG architecture to ensure absolute adherence to foundational texts.
 
